@@ -79,7 +79,7 @@ Bu paketi klonlayıp derleyin.
 
 ```
 cd ~/rover_ws/src
-git clone https://github.com/itu-rover/iturover_reactive_robot_assignment
+git clone https://github.com/itu-rover/iturover_obstacle_avoidance_assignment
 cd ..
 catkin build
 ```
