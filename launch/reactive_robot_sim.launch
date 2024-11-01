@@ -1,6 +1,6 @@
 <launch>
     <arg name="gui" default="true"/>
-    <arg name="rviz" default="true"/>
+    <arg name="rviz" default="false"/>
     <arg name="model" default="burger_rgbd" doc="{burger_rgbd, waffle, waffle_pi}"/>
     <arg name="robot_margin" default="0.1"/>  
     <arg if="$(eval model in ('burger_rgbd', 'burger'))" name="robot_radius" default="$(eval 0.105 + robot_margin)"/>
